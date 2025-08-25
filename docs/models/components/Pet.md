@@ -1,0 +1,13 @@
+# Pet
+
+
+## Fields
+
+| Field                                                        | Type                                                         | Required                                                     | Description                                                  | Example                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `id`                                                         | *Optional\<Long>*                                            | :heavy_minus_sign:                                           | N/A                                                          | 10                                                           |
+| `name`                                                       | *String*                                                     | :heavy_check_mark:                                           | N/A                                                          | doggie                                                       |
+| `category`                                                   | [Optional\<Category>](../../models/components/Category.md)   | :heavy_minus_sign:                                           | N/A                                                          |                                                              |
+| `photoUrls`                                                  | List\<*String*>                                              | :heavy_check_mark:                                           | N/A                                                          |                                                              |
+| `tags`                                                       | List\<[Tag](../../models/components/Tag.md)>                 | :heavy_minus_sign:                                           | N/A                                                          |                                                              |
+| `status`                                                     | [Optional\<PetStatus>](../../models/components/PetStatus.md) | :heavy_minus_sign:                                           | pet status in the store                                      |                                                              |

@@ -1,0 +1,405 @@
+lockVersion: 2.0.0
+id: 72c0eae2-ccd0-468f-93f3-16fb1ff37ab1
+management:
+  docChecksum: 03e3387365ae18c7ce07d32543a62956
+  docVersion: 1.0.0
+  speakeasyVersion: 1.606.5
+  generationVersion: 2.687.1
+  releaseVersion: 0.0.1
+  configChecksum: b1821df6e6c1460192c5c245a5b4ea3f
+features:
+  java:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.1
+    core: 3.45.4
+    flattening: 2.81.1
+    globalSecurity: 2.83.0
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.2
+    sdkHooks: 1.1.0
+generatedFiles:
+  - .gitattributes
+  - USAGE.md
+  - build.gradle
+  - docs/models/components/ApiResponse.md
+  - docs/models/components/Category.md
+  - docs/models/components/Order.md
+  - docs/models/components/OrderStatus.md
+  - docs/models/components/Pet.md
+  - docs/models/components/PetStatus.md
+  - docs/models/components/Security.md
+  - docs/models/components/Tag.md
+  - docs/models/components/User.md
+  - docs/models/errors/ApiErrorInvalidInput.md
+  - docs/models/errors/ApiErrorNotFound.md
+  - docs/models/errors/ApiErrorUnauthorized.md
+  - docs/models/operations/AddPetResponse.md
+  - docs/models/operations/CreateUserResponse.md
+  - docs/models/operations/CreateUsersWithListInputResponse.md
+  - docs/models/operations/DeleteOrderRequest.md
+  - docs/models/operations/DeleteOrderResponse.md
+  - docs/models/operations/DeletePetRequest.md
+  - docs/models/operations/DeletePetResponse.md
+  - docs/models/operations/DeleteUserRequest.md
+  - docs/models/operations/DeleteUserResponse.md
+  - docs/models/operations/FindPetsByStatusRequest.md
+  - docs/models/operations/FindPetsByStatusResponse.md
+  - docs/models/operations/FindPetsByTagsRequest.md
+  - docs/models/operations/FindPetsByTagsResponse.md
+  - docs/models/operations/GetInventoryResponse.md
+  - docs/models/operations/GetOrderByIdRequest.md
+  - docs/models/operations/GetOrderByIdResponse.md
+  - docs/models/operations/GetPetByIdRequest.md
+  - docs/models/operations/GetPetByIdResponse.md
+  - docs/models/operations/GetUserByNameRequest.md
+  - docs/models/operations/GetUserByNameResponse.md
+  - docs/models/operations/LoginUserRequest.md
+  - docs/models/operations/LoginUserResponse.md
+  - docs/models/operations/LogoutUserResponse.md
+  - docs/models/operations/PlaceOrderResponse.md
+  - docs/models/operations/Status.md
+  - docs/models/operations/UpdatePetResponse.md
+  - docs/models/operations/UpdateUserRequest.md
+  - docs/models/operations/UpdateUserResponse.md
+  - docs/models/operations/UploadFileRequest.md
+  - docs/models/operations/UploadFileResponse.md
+  - docs/sdks/pet/README.md
+  - docs/sdks/petstore/README.md
+  - docs/sdks/store/README.md
+  - docs/sdks/user/README.md
+  - gradle.properties
+  - gradle/wrapper/gradle-wrapper.jar
+  - gradle/wrapper/gradle-wrapper.properties
+  - gradlew
+  - gradlew.bat
+  - settings.gradle
+  - src/main/java/org/openapis/openapi/Pet.java
+  - src/main/java/org/openapis/openapi/Petstore.java
+  - src/main/java/org/openapis/openapi/SDKConfiguration.java
+  - src/main/java/org/openapis/openapi/SecuritySource.java
+  - src/main/java/org/openapis/openapi/Store.java
+  - src/main/java/org/openapis/openapi/User.java
+  - src/main/java/org/openapis/openapi/models/components/ApiResponse.java
+  - src/main/java/org/openapis/openapi/models/components/Category.java
+  - src/main/java/org/openapis/openapi/models/components/Order.java
+  - src/main/java/org/openapis/openapi/models/components/OrderStatus.java
+  - src/main/java/org/openapis/openapi/models/components/Pet.java
+  - src/main/java/org/openapis/openapi/models/components/PetStatus.java
+  - src/main/java/org/openapis/openapi/models/components/Security.java
+  - src/main/java/org/openapis/openapi/models/components/Tag.java
+  - src/main/java/org/openapis/openapi/models/components/User.java
+  - src/main/java/org/openapis/openapi/models/errors/APIException.java
+  - src/main/java/org/openapis/openapi/models/errors/ApiErrorInvalidInput.java
+  - src/main/java/org/openapis/openapi/models/errors/ApiErrorNotFound.java
+  - src/main/java/org/openapis/openapi/models/errors/ApiErrorUnauthorized.java
+  - src/main/java/org/openapis/openapi/models/errors/AuthException.java
+  - src/main/java/org/openapis/openapi/models/operations/AddPetRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/AddPetResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/CreateUserRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/CreateUserResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/CreateUsersWithListInputRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/CreateUsersWithListInputResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteOrderRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteOrderRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteOrderResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/DeletePetRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/DeletePetRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/DeletePetResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteUserRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteUserRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/DeleteUserResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByStatusRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByStatusRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByStatusResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByTagsRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByTagsRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/FindPetsByTagsResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/GetInventoryRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/GetInventoryResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/GetOrderByIdRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/GetOrderByIdRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/GetOrderByIdResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/GetPetByIdRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/GetPetByIdRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/GetPetByIdResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/GetUserByNameRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/GetUserByNameRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/GetUserByNameResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/LoginUserRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/LoginUserRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/LoginUserResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/LogoutUserRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/LogoutUserResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/PlaceOrderRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/PlaceOrderResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/Status.java
+  - src/main/java/org/openapis/openapi/models/operations/UpdatePetRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/UpdatePetResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/UpdateUserRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/UpdateUserRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/UpdateUserResponse.java
+  - src/main/java/org/openapis/openapi/models/operations/UploadFileRequest.java
+  - src/main/java/org/openapis/openapi/models/operations/UploadFileRequestBuilder.java
+  - src/main/java/org/openapis/openapi/models/operations/UploadFileResponse.java
+  - src/main/java/org/openapis/openapi/operations/AddPet.java
+  - src/main/java/org/openapis/openapi/operations/CreateUser.java
+  - src/main/java/org/openapis/openapi/operations/CreateUsersWithListInput.java
+  - src/main/java/org/openapis/openapi/operations/DeleteOrder.java
+  - src/main/java/org/openapis/openapi/operations/DeletePet.java
+  - src/main/java/org/openapis/openapi/operations/DeleteUser.java
+  - src/main/java/org/openapis/openapi/operations/FindPetsByStatus.java
+  - src/main/java/org/openapis/openapi/operations/FindPetsByTags.java
+  - src/main/java/org/openapis/openapi/operations/GetInventory.java
+  - src/main/java/org/openapis/openapi/operations/GetOrderById.java
+  - src/main/java/org/openapis/openapi/operations/GetPetById.java
+  - src/main/java/org/openapis/openapi/operations/GetUserByName.java
+  - src/main/java/org/openapis/openapi/operations/LoginUser.java
+  - src/main/java/org/openapis/openapi/operations/LogoutUser.java
+  - src/main/java/org/openapis/openapi/operations/Operations.java
+  - src/main/java/org/openapis/openapi/operations/PlaceOrder.java
+  - src/main/java/org/openapis/openapi/operations/UpdatePet.java
+  - src/main/java/org/openapis/openapi/operations/UpdateUser.java
+  - src/main/java/org/openapis/openapi/operations/UploadFile.java
+  - src/main/java/org/openapis/openapi/utils/BackoffStrategy.java
+  - src/main/java/org/openapis/openapi/utils/BigDecimalString.java
+  - src/main/java/org/openapis/openapi/utils/BigIntegerString.java
+  - src/main/java/org/openapis/openapi/utils/BlockingParser.java
+  - src/main/java/org/openapis/openapi/utils/Constants.java
+  - src/main/java/org/openapis/openapi/utils/CopiableInputStream.java
+  - src/main/java/org/openapis/openapi/utils/Deserializers.java
+  - src/main/java/org/openapis/openapi/utils/EventStream.java
+  - src/main/java/org/openapis/openapi/utils/EventStreamMessage.java
+  - src/main/java/org/openapis/openapi/utils/Exceptions.java
+  - src/main/java/org/openapis/openapi/utils/FormMetadata.java
+  - src/main/java/org/openapis/openapi/utils/Globals.java
+  - src/main/java/org/openapis/openapi/utils/HTTPClient.java
+  - src/main/java/org/openapis/openapi/utils/HTTPRequest.java
+  - src/main/java/org/openapis/openapi/utils/HasSecurity.java
+  - src/main/java/org/openapis/openapi/utils/HeaderMetadata.java
+  - src/main/java/org/openapis/openapi/utils/Helpers.java
+  - src/main/java/org/openapis/openapi/utils/Hook.java
+  - src/main/java/org/openapis/openapi/utils/Hooks.java
+  - src/main/java/org/openapis/openapi/utils/JSON.java
+  - src/main/java/org/openapis/openapi/utils/LazySingletonValue.java
+  - src/main/java/org/openapis/openapi/utils/Metadata.java
+  - src/main/java/org/openapis/openapi/utils/Multipart.java
+  - src/main/java/org/openapis/openapi/utils/MultipartFormMetadata.java
+  - src/main/java/org/openapis/openapi/utils/NameValue.java
+  - src/main/java/org/openapis/openapi/utils/OneOfDeserializer.java
+  - src/main/java/org/openapis/openapi/utils/Options.java
+  - src/main/java/org/openapis/openapi/utils/PathParamsMetadata.java
+  - src/main/java/org/openapis/openapi/utils/QueryEncoding.java
+  - src/main/java/org/openapis/openapi/utils/QueryParameter.java
+  - src/main/java/org/openapis/openapi/utils/QueryParameters.java
+  - src/main/java/org/openapis/openapi/utils/QueryParamsMetadata.java
+  - src/main/java/org/openapis/openapi/utils/RecordingClient.java
+  - src/main/java/org/openapis/openapi/utils/RequestBody.java
+  - src/main/java/org/openapis/openapi/utils/RequestMetadata.java
+  - src/main/java/org/openapis/openapi/utils/Response.java
+  - src/main/java/org/openapis/openapi/utils/ResponseWithBody.java
+  - src/main/java/org/openapis/openapi/utils/Retries.java
+  - src/main/java/org/openapis/openapi/utils/RetryConfig.java
+  - src/main/java/org/openapis/openapi/utils/Security.java
+  - src/main/java/org/openapis/openapi/utils/SecurityMetadata.java
+  - src/main/java/org/openapis/openapi/utils/SerializedBody.java
+  - src/main/java/org/openapis/openapi/utils/SessionManager.java
+  - src/main/java/org/openapis/openapi/utils/SpeakeasyHTTPClient.java
+  - src/main/java/org/openapis/openapi/utils/SpeakeasyMetadata.java
+  - src/main/java/org/openapis/openapi/utils/StreamingParser.java
+  - src/main/java/org/openapis/openapi/utils/TypedObject.java
+  - src/main/java/org/openapis/openapi/utils/Types.java
+  - src/main/java/org/openapis/openapi/utils/Utf8UrlEncoder.java
+  - src/main/java/org/openapis/openapi/utils/Utils.java
+examples:
+  updatePet:
+    speakeasy-default-update-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  addPet:
+    speakeasy-default-add-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>", "<value 2>", "<value 3>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+  findPetsByStatus:
+    speakeasy-default-find-pets-by-status:
+      parameters:
+        query:
+          status: "available"
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>", "<value 2>"]}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  findPetsByTags:
+    speakeasy-default-find-pets-by-tags:
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getPetById:
+    speakeasy-default-get-pet-by-id:
+      parameters:
+        path:
+          petId: 311674
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value 1>"]}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deletePet:
+    speakeasy-default-delete-pet:
+      parameters:
+        path:
+          petId: 818965
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  uploadFile:
+    speakeasy-default-upload-file:
+      parameters:
+        path:
+          petId: 150516
+      responses:
+        "200":
+          application/json: {}
+  getInventory:
+    speakeasy-default-get-inventory:
+      responses:
+        "200":
+          application/json: {"key": 111959, "key1": 333452, "key2": 973245}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  placeOrder:
+    speakeasy-default-place-order:
+      requestBody:
+        application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getOrderById:
+    speakeasy-default-get-order-by-id:
+      parameters:
+        path:
+          orderId: 728529
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deleteOrder:
+    speakeasy-default-delete-order:
+      parameters:
+        path:
+          orderId: 690575
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  createUser:
+    speakeasy-default-create-user:
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  createUsersWithListInput:
+    speakeasy-default-create-users-with-list-input:
+      requestBody:
+        application/json: [{"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}]
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  loginUser:
+    speakeasy-default-login-user:
+      responses:
+        "200":
+          application/json: "<value>"
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  logoutUser: {}
+  getUserByName:
+    speakeasy-default-get-user-by-name:
+      parameters:
+        path:
+          username: "Edyth10"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  updateUser:
+    speakeasy-default-update-user:
+      parameters:
+        path:
+          username: "Alison.Cassin"
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  deleteUser:
+    speakeasy-default-delete-user:
+      parameters:
+        path:
+          username: "Rita_Schuppe"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+examplesVersion: 1.0.2
