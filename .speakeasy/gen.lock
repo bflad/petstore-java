@@ -5,8 +5,9 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.606.5
   generationVersion: 2.687.1
-  releaseVersion: 0.0.1
-  configChecksum: b1821df6e6c1460192c5c245a5b4ea3f
+  releaseVersion: 0.0.2
+  configChecksum: 1ed385caa7c7769b014d81bf8fc94a3f
+  repoURL: https://github.com/bflad/petstore-java.git
 features:
   java:
     additionalDependencies: 0.1.0

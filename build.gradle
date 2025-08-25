@@ -82,7 +82,7 @@ publishing {
             // https://github.com/gradle/gradle/issues/18619
             groupId = "org.openapis"
             artifactId = "openapi"
-            version = "0.0.1"
+            version = "0.0.2"
 
             from components.java
 
